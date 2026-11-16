@@ -47,6 +47,15 @@ npm ci
 npm start
 ```
 
+## Lint
+
+```bash
+npm run lint
+```
+
+ESLint with its recommended rules, plus `eqeqeq`, `no-var` and
+`prefer-const`. The rules are in `eslint.config.js`.
+
 ## Test
 
 ```bash
